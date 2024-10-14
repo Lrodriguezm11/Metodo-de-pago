@@ -1,0 +1,78 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #d1b5ee, #628dd7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.payment-container {
+  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  backdrop-filter: blur(10px); /* Efecto de difuminado */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  text-align: center;
+}
+
+.payment-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  color: #ffffff;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input::placeholder {
+  color: #f0f0f0;
+}
+
+button {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #5a0fb0, #1e6ee7);
+}
